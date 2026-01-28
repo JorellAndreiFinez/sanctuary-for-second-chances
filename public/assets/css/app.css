@@ -1,50 +1,36 @@
 /* ===== IMPORT GOOGLE FONTS ===== */
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Hind:wght@300;400;500;600;700&display=swap');
 
-.cardo {
-  font-family: "Cardo", serif;
-}
-
-.hind {
-  font-family: "Hind", sans-serif;
-}
-
+/* ===== ROOT VARIABLES ===== */
 :root {
-  /* ===== FONTS ===== */
-  --font-heading: "Cardo", serif; /* Headlines, titles, main section headers */
-  --font-body: "Hind", sans-serif; /* Body text, paragraphs, menus, UI text */
+  --font-heading: "Cardo", serif;
+  --font-body: "Hind", sans-serif;
 
-  /* ===== COLORS ===== */
-  --primary-color: #FDDF9F;      /* Main headings, highlighted links */
-  --secondary-color: #E29E19;    /* Navbar background or accent sections */
-  --accent-color: #515B12;       /* Buttons, small accents, icons */
-  --text-color: #472F0C;        /* Hover color for buttons, links, cards */
-  --bg-color: #F4EEDE;           /* Page background */
-  --hover-color: #1E1E1E;         /* Body text and paragraphs */
+  --primary-color: #FDDF9F;
+  --secondary-color: #E29E19;
+  --accent-color: #515B12;
+  --text-color: #472F0C;
+  --bg-color: #F4EEDE;
+  --hover-color: #1E1E1E;
 
-  /* ===== TRANSITIONS ===== */
-  --transition-fast: 0.2s ease-in-out; /* Buttons, links, small hover effects */
-  --transition-medium: 0.4s ease-in-out; /* Cards, dropdowns, larger UI elements */
-  --transition-slow: 0.6s ease-in-out; /* Animations for sections or large effects */
+  --transition-fast: 0.2s ease-in-out;
+  --transition-medium: 0.4s ease-in-out;
+  --transition-slow: 0.6s ease-in-out;
 }
 
-/* ===== GENERAL RESET & BASE STYLES ===== */
-
-/* Set box-sizing for all elements */
+/* ===== BASE ELEMENTS ===== */
 html {
-  box-sizing: border-box;
   font-family: var(--font-body);
-  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-  font-family: var(--font-body);
 }
 
-/* Base body styling */
 body {
   font-family: var(--font-body);
   font-size: 16px;
@@ -55,7 +41,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Default link styles */
 a {
   text-decoration: none;
   color: var(--primary-color);
@@ -66,7 +51,6 @@ a:hover {
   color: var(--hover-color);
 }
 
-/* Headings (default) */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   color: var(--text-color);
@@ -74,21 +58,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5em;
 }
 
-/* Paragraphs */
 p {
   font-family: var(--font-body);
   margin-bottom: 1em;
   color: var(--hover-color);
 }
 
-/* Images: make responsive */
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* Buttons: base styles */
 button {
   font-family: var(--font-body);
   cursor: pointer;
@@ -96,16 +77,24 @@ button {
   border: none;
 }
 
-/* Utility: smooth dropdown shadows */
 .shadow-dropdown {
   box-shadow: var(--dropdown-shadow);
 }
 
 .my-nav {
-    background: var(--primary-color);
+  background: var(--primary-color);
 }
 
-.my-nav a, .my-nav button {
-    color: var(--hover-color);
+.my-nav a,
+.my-nav button {
+  color: var(--hover-color);
 }
 
+/* ===== UTILITY FONTS ===== */
+.cardo {
+  font-family: var(--font-heading);
+}
+
+.hind {
+  font-family: var(--font-body);
+}
