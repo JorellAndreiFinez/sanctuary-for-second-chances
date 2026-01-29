@@ -52,7 +52,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                     <div class="space-y-6 w-full">
-                        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
+                        <h2 class="text-3xl sm:text-4xl font-bold ">
                             A Sanctuary for Healing, Recovery, and Transformation
                         </h2>
                         <p class="leading-relaxed">
@@ -126,8 +126,8 @@
         </div>
 
         <!-- Updates Section -->
-        <section class="py-16 bg-[var(--bg-color)] px-4 sm:px-6 lg:px-8" x-data="updatesComponent()">
-            <h2 class="cardo text-4xl font-bold text-[var(--accent-color)] mb-12 text-center">
+        <section class="py-16 px-4 sm:px-6 lg:px-8" x-data="updatesComponent()">
+            <h2 class="cardo text-4xl font-bold mb-12 text-center">
                 Updates & Announcements
             </h2>
 
@@ -141,7 +141,7 @@
                         <div class="text-sm text-[var(--secondary-color)] mb-2" x-text="update.date"></div>
 
                         <!-- Title -->
-                        <h3 class="cardo text-xl font-bold text-[var(--accent-color)] mb-2" x-text="update.title"></h3>
+                        <h3 class="cardo text-xl font-bold  mb-2" x-text="update.title"></h3>
 
                         <!-- Short Description -->
                         <p class="hind text-[var(--hover-color)] mb-4" x-text="update.shortDesc"></p>
@@ -209,7 +209,7 @@
                             </template>
                             <template x-if="currentUpdate.socialLinks.linkedin">
                                 <a :href="currentUpdate.socialLinks.linkedin" target="_blank">
-                                    <ion-icon name="logo-linkedin" class="text-[var(--accent-color)] text-2xl"></ion-icon>
+                                    <ion-icon name="logo-linkedin" class=" text-2xl"></ion-icon>
                                 </a>
                             </template>
                         </div>

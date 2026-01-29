@@ -46,7 +46,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <!-- Heading -->
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
+                    <h2 class="text-3xl sm:text-4xl font-bold ">
                         Our Location – Cavite’s Hidden Refuge for Recovery
                     </h2>
 
@@ -81,12 +81,8 @@
                     </div>
 
                     <!-- Google Map Embed -->
-                    <div class="rounded-xl overflow-hidden shadow-lg">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4543.042474900004!2d120.75339447575847!3d14.186944886251872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd877afaa91ff7%3A0x1d32118373e5a678!2sSanctuary%20for%20Second%20Chances!5e1!3m2!1sen!2sph!4v1769268128085!5m2!1sen!2sph"
-                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
+                    <div class="rounded-xl overflow-hidden">
+                        <img src="{{ asset('assets/images/footer-cover.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -94,7 +90,7 @@
 
         <section class="mt-16 py-16">
             <div class="max-w-6xl mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">
+                <h2 class="text-3xl md:text-4xl font-extrabold ">
                     Our Role in National Advocacy
                 </h2>
                 <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
@@ -133,14 +129,14 @@
 
         <section class="mt-16 py-16 relative" x-data="{
             cards: [
-                { title: 'Holistic, Non-Clinical Approach', description: 'Integrating values-based recovery, spiritual grounding, life-skills training, and evidence-informed practices into a seamless, personalized framework.', icon: '<svg xmlns=\'http://www.w3.org/2000/svg\' class=\'h-8 w-8 text-primary\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'currentColor\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M12 8c1.104 0 2-.896 2-2s-.896-2-2-2-2 .896-2 2 .896 2 2 2zM12 14c-4 0-8 2-8 6h16c0-4-4-6-8-6z\' /></svg>' },
-                { title: 'Beyond Substance Use', description: 'Programs addressing gambling addiction, co-dependency, and compulsive behaviors alongside chemical dependency.', icon: '<svg xmlns=\'http://www.w3.org/2000/svg\' class=\'h-8 w-8 text-primary\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'currentColor\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M3 10h2l1 2 1-2h2m4 0h2l1 2 1-2h2\' /></svg>' },
-                { title: 'Family-Centered Healing', description: 'Healing Together: Family Support Sessions to strengthen communication, boundaries, and reconciliation.', icon: '<svg xmlns=\'http://www.w3.org/2000/svg\' class=\'h-8 w-8 text-primary\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'currentColor\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M5.121 17.804A9 9 0 1112 21a9 9 0 01-6.879-3.196z\' /></svg>' },
-                { title: 'Community Connection', description: 'Values-based groups, peer mentoring, life-skills reinforcement, and recovery coaching for reintegration.', icon: '<svg xmlns=\'http://www.w3.org/2000/svg\' class=\'h-8 w-8 text-primary\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'currentColor\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M16 7a4 4 0 110 8 4 4 0 010-8zM4 15v1a2 2 0 002 2h12a2 2 0 002-2v-1\' /></svg>' },
-                { title: 'Multi-Track Recovery Support', description: 'Tailored programs for substance use, gambling, co-dependency, and compulsive behaviors.', icon: '<svg xmlns=\'http://www.w3.org/2000/svg\' class=\'h-8 w-8 text-primary\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'currentColor\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M9 17v-2a2 2 0 012-2h2a2 2 0 012 2v2m-6 0h6\' /></svg>' }
+                { title: 'Holistic, Non-Clinical Approach', description: 'Integrating values-based recovery, spiritual grounding, life-skills training, and evidence-informed practices into a seamless, personalized framework.', icon: '<ion-icon name=\'leaf-outline\' class=\'text-3xl text-[--text-color]\'></ion-icon>' },
+                { title: 'Beyond Substance Use', description: 'Programs addressing gambling addiction, co-dependency, and compulsive behaviors alongside chemical dependency.', icon: '<ion-icon name=\'infinite-outline\' class=\'text-3xl text-[--text-color]\'></ion-icon>' },
+                { title: 'Family-Centered Healing', description: 'Healing Together: Family Support Sessions to strengthen communication, boundaries, and reconciliation.', icon: '<ion-icon name=\'people-outline\' class=\'text-3xl text-[--text-color]\'></ion-icon>' },
+                { title: 'Community Connection', description: 'Values-based groups, peer mentoring, life-skills reinforcement, and recovery coaching for reintegration.', icon: '<ion-icon name=\'chatbubbles-outline\' class=\'text-3xl text-[--text-color]\'></ion-icon>' },
+                { title: 'Multi-Track Recovery Support', description: 'Tailored programs for substance use, gambling, co-dependency, and compulsive behaviors.', icon: '<ion-icon name=\'layers-outline\' class=\'text-3xl text-[--text-color]\'></ion-icon>' }
             ]
         }">
-            <div class="absolute top-4 left-0 w-full h-1"
+         <div class="absolute top-4 left-0 w-full h-1"
                 style="
             background-image: repeating-linear-gradient(
                 to right,
@@ -152,31 +148,35 @@
             border-radius: 9999px;
         ">
             </div>
-
             <div class="max-w-6xl mx-auto px-6 text-center relative mt-10">
-                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">What Makes Us Different</h2>
+                
+                <h2 class="text-3xl md:text-4xl font-extrabold">What Makes Us Different</h2>
                 <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
                     Our approach blends evidence-informed recovery planning with compassionate peer support, ensuring every
                     participant is seen as a whole person—not defined by struggles, but strengthened by their courage to
                     heal.
                 </p>
 
+                <!-- FIRST ROW -->
                 <div class="mt-12 grid md:grid-cols-3 gap-10 justify-items-center">
                     <template x-for="(card, index) in cards.slice(0,3)" :key="index">
                         <div
-                            class="flex flex-col items-center space-y-4 max-w-xs text-center p-5 rounded-2xl bg-[--text-color]">
+                            class="flex flex-col items-center space-y-4 max-w-xs text-center p-5 rounded-2xl bg-[--text-color] hover:shadow-xl hover:scale-105 transition-transform">
                             <div class="p-4 bg-[--primary-color] bg-opacity-10 rounded-xl inline-flex items-center justify-center"
-                                x-html="card.icon"></div>
+                                x-html="card.icon">
+                                <div x-html="card.icon"></div>
+                            </div>
                             <h3 class="text-xl font-semibold text-[--primary-color]" x-text="card.title"></h3>
                             <p class="text-[--bg-color]" x-text="card.description"></p>
                         </div>
                     </template>
                 </div>
 
-                <div class="mt-10 flex justify-center gap-10">
+                <!-- SECOND ROW -->
+                <div class="mt-10 flex flex-wrap justify-center gap-10">
                     <template x-for="(card, index) in cards.slice(3)" :key="index">
                         <div
-                            class="flex flex-col items-center space-y-4 max-w-xs text-center p-5 rounded-2xl bg-[--text-color]">
+                            class="flex flex-col items-center space-y-4 max-w-xs text-center p-5 rounded-2xl bg-[--text-color] hover:shadow-xl hover:scale-105 transition-transform">
                             <div class="p-4 bg-[--primary-color] bg-opacity-10 rounded-xl inline-flex items-center justify-center"
                                 x-html="card.icon"></div>
                             <h3 class="text-xl font-semibold text-[--primary-color]" x-text="card.title"></h3>
@@ -185,7 +185,7 @@
                     </template>
                 </div>
             </div>
-
+            <!-- BOTTOM DASHED LINE -->
             <div class="absolute left-0 w-full h-1 -bottom-16"
                 style="
             background-image: repeating-linear-gradient(
@@ -200,10 +200,12 @@
             </div>
         </section>
 
+
+
         <section class="mt-16 py-20 bg-gray-50 relative">
 
             <div class="max-w-5xl mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">
+                <h2 class="text-3xl md:text-4xl font-extrabold ">
                     Program Features
                 </h2>
                 <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
@@ -222,7 +224,7 @@
                         <!-- Feature 1 -->
                         <div class="md:flex md:items-center md:justify-between">
                             <div class="md:w-5/12 text-right md:pr-12">
-                                <h3 class="text-2xl font-semibold text-gray-900">Open-Doors Recovery</h3>
+                                <h3 class="text-2xl font-semibold ">Open-Doors Recovery</h3>
                                 <p class="mt-2 text-gray-600">
                                     A welcoming, non-restrictive environment that builds trust, dignity, and belonging.
                                 </p>
@@ -235,7 +237,7 @@
                         <!-- Feature 2 -->
                         <div class="md:flex md:items-center md:justify-between md:flex-row-reverse">
                             <div class="md:w-5/12 text-left md:pl-12">
-                                <h3 class="text-2xl font-semibold text-gray-900">Regular RNR</h3>
+                                <h3 class="text-2xl font-semibold ">Regular RNR</h3>
                                 <p class="mt-2 text-gray-600">
                                     Balanced time for relaxation, fun outdoor activities, and community bonding.
                                 </p>
@@ -248,7 +250,7 @@
                         <!-- Feature 3 -->
                         <div class="md:flex md:items-center md:justify-between">
                             <div class="md:w-5/12 text-right md:pr-12">
-                                <h3 class="text-2xl font-semibold text-gray-900">12-Step Integration</h3>
+                                <h3 class="text-2xl font-semibold ">12-Step Integration</h3>
                                 <p class="mt-2 text-gray-600">
                                     Participation in 12-step aligned fellowships and support group meetings for shared
                                     wisdom and guidance.
@@ -262,7 +264,7 @@
                         <!-- Feature 4 -->
                         <div class="md:flex md:items-center md:justify-between md:flex-row-reverse">
                             <div class="md:w-5/12 text-left md:pl-12">
-                                <h3 class="text-2xl font-semibold text-gray-900">Aftercare & Follow-Up</h3>
+                                <h3 class="text-2xl font-semibold ">Aftercare & Follow-Up</h3>
                                 <p class="mt-2 text-gray-600">
                                     Structured monitoring, relapse prevention, and reintegration planning for alumni and
                                     community-based participants.
@@ -288,22 +290,22 @@
                 </p>
 
                 <div class="mt-8 flex flex-col sm:flex-row justify-center gap-6">
-                    <a href="/mission"
+                    <a href="{{ route('about.mission') }}"
                         class="px-8 py-4 bg-white text-primary font-semibold rounded-xl shadow-lg hover:bg-gray-100 transition">
                         Our Mission
                     </a>
-                    <a href="/vision"
+                    <a href="{{ route('about.board-of-trustees') }}"
                         class="px-8 py-4 border border-white font-semibold rounded-xl hover:bg-white hover:text-primary transition">
-                        Our Vision
+                        Board of Trustees
                     </a>
                 </div>
             </div>
         </section>
-
     </main>
 
 @endsection
 
 @section('scripts')
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 @endsection

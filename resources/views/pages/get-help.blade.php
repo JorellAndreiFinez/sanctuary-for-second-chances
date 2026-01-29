@@ -57,7 +57,7 @@
                         <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
                             <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
                                 <h3 class=" text-xl font-semibold sm:text-center sm:text-2xl md:text-center uppercase">
-                                    Need help?
+                                    Get Help
                                 </h3>
                             </div>
                         </div>
@@ -67,117 +67,209 @@
         </header>
 
 
-        <section
-            class="relative bg-gradient-to-br from-[--accent-color] to-[--accent-color]/70 text-white overflow-hidden py-32">
-            {{-- Abstract floating shapes --}}
-            <div class="absolute -top-16 -left-16 w-60 h-60 bg-white/10 rounded-full blur-3xl animate-blob"></div>
-            <div
-                class="absolute -bottom-20 -right-24 w-80 h-80 bg-white/5 rounded-full blur-3xl animate-blob animation-delay-2000">
-            </div>
+        <section class="relative py-16">
+            <div class="max-w-6xl mx-auto px-4 text-center">
 
-            <div class="max-w-6xl mx-auto px-4 text-center relative z-10">
-                <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight tracking-tight">The Sanctuary for Second
-                    Chances</h1>
-                <p class="text-lg md:text-xl text-white/90 mb-12 max-w-3xl mx-auto">A safe haven for those seeking freedom
-                    from addiction. Guidance, support, and hope are available to anyone who reaches out.</p>
-                <div class="flex flex-wrap justify-center gap-6">
+                <h1
+                    class="font-[--font-heading] text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    The Sanctuary for<br class="hidden sm:block">
+                    Second Chances
+                </h1>
+
+                <p class="font-[--font-body] text-lg md:text-xl max-w-3xl mx-auto mb-12 opacity-90">
+                    A safe haven for those seeking freedom from addiction.
+                    Compassionate guidance, real support, and hope for lasting recovery.
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-4">
                     <a href="tel:09602336216"
-                        class="bg-white  rounded-full px-8 py-4 font-semibold shadow-lg hover:scale-105 transition-transform">
-                        📞 Call
+                        class="inline-flex items-center justify-center px-8 py-4 rounded-full
+                      bg-[--accent-color] text-white font-semibold
+                      hover:bg-[--hover-color]
+                      transition-all duration-300">
+                        Call Us
                     </a>
+
                     <a href="https://wa.me/639602336216" target="_blank"
-                        class="bg-white rounded-full px-8 py-4 font-semibold shadow-lg hover:scale-105 transition-transform">
-                        💬 WhatsApp
+                        class="inline-flex items-center justify-center px-8 py-4 rounded-full
+                      border border-[--accent-color]
+                       font-semibold
+                      hover:bg-[--accent-color] hover:text-white
+                      transition-all duration-300">
+                        WhatsApp
                     </a>
                 </div>
+
             </div>
         </section>
 
-        {{-- Section 2: Creative Hotline Display --}}
-        <section class="relative bg-[--bg-color] py-24 overflow-hidden">
-            {{-- Layered shapes --}}
-            <div
-                class="absolute -top-10 -left-16 w-40 h-40 bg-[--accent-color]/5 rounded-full blur-2xl animate-blob animation-delay-1000">
-            </div>
-            <div
-                class="absolute -bottom-16 -right-20 w-72 h-72 bg-[--accent-color]/10 rounded-full blur-3xl animate-blob animation-delay-3000">
-            </div>
+        <section class="relative py-16 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-16 items-start">
 
-            <div class="max-w-7xl mx-auto px-4">
-                <h2 class="text-4xl font-bold  mb-12 text-center">Philippine Hotlines & Resources</h2>
+                    <!-- Left: Statement -->
+                    <div class="space-y-6">
+                        <span class="uppercase tracking-widest text-sm ">
+                            Guidance
+                        </span>
 
-                <div class="grid gap-12 lg:grid-cols-2">
-                    {{-- Card style 1: Floating asymmetric --}}
-                    <div
-                        class="bg-white rounded-3xl shadow-lg p-12 relative overflow-hidden group hover:scale-[1.03] transition-transform">
-                        <div
-                            class="absolute -top-12 -right-12 w-36 h-36 bg-[--accent-color]/10 rounded-full group-hover:bg-[--accent-color]/20 transition-all">
-                        </div>
-                        <h3 class="text-2xl font-bold  mb-3">Philippine Red Cross</h3>
-                        <p class="text-[--text-color]/90 mb-4">24/7 counseling & referral services for mental health and
-                            substance abuse.</p>
-                        <p class="label-minimal">Hotline:</p>
-                        <p class="phone-link mt-2"><a href="tel:143" class="phone-link">143 (Nationwide)</a></p>
-                        <a href="https://www.redcross.org.ph/" target="_blank"
-                            class="text-[--secondary-color] font-semibold hover:underline mt-4 block">Visit Website</a>
+                        <h2 class="cardo text-5xl font-bold leading-tight ">
+                            When you’re not sure<br class="hidden sm:block">
+                            what to do next
+                        </h2>
+
+                        <p class="text-lg  max-w-xl">
+                            Feeling lost doesn’t mean you’ve failed. It usually means you’ve reached
+                            a moment where something new is trying to begin.
+                        </p>
+
+                        <p class=" max-w-xl">
+                            This space isn’t about fixing you. It’s about offering quiet direction,
+                            practical insight, and options you can return to whenever you need.
+                        </p>
                     </div>
 
-                    <div
-                        class="bg-white rounded-3xl shadow-lg p-12 relative overflow-hidden group hover:scale-[1.03] transition-transform">
-                        <div
-                            class="absolute -top-12 -left-12 w-36 h-36 bg-[--accent-color]/10 rounded-full group-hover:bg-[--accent-color]/20 transition-all">
-                        </div>
-                        <h3 class="text-2xl font-bold  mb-3">Dangerous Drugs Board</h3>
-                        <p class="text-[--text-color]/90 mb-4">Government programs for prevention, intervention &
-                            rehabilitation.</p>
-                        <p class="label-minimal">Contact:</p>
-                        <p class="phone-link mt-2"><a href="tel:+6328185291" class="phone-link">+63 2 8185-291</a></p>
-                        <a href="https://www.ddb.gov.ph/" target="_blank"
-                            class="text-[--secondary-color] font-semibold hover:underline mt-4 block">Visit Website</a>
-                    </div>
+                    <!-- Right: Guidance Blocks -->
+                    <div class="space-y-10">
 
-                    <div
-                        class="bg-white rounded-3xl shadow-lg p-12 relative overflow-hidden group hover:scale-[1.03] transition-transform">
-                        <div
-                            class="absolute -bottom-12 -right-12 w-40 h-40 bg-[--accent-color]/10 rounded-full group-hover:bg-[--accent-color]/20 transition-all">
+                        <div class="border-l-4 border-[--primary-color] pl-6">
+                            <h3 class="text-xl font-semibold mb-2">
+                                Read, don’t rush
+                            </h3>
+                            <p class="">
+                                Short guides meant to be absorbed slowly. No pressure to finish,
+                                no expectations—just clarity, one idea at a time.
+                            </p>
                         </div>
-                        <h3 class="text-2xl font-bold  mb-3">Project Double Barrel</h3>
-                        <p class="text-[--text-color]/90 mb-4">Community-based rehabilitation & family support for substance
-                            abuse cases.</p>
-                        <p class="label-minimal">Hotline:</p>
-                        <p class="phone-link mt-2"><a href="tel:+6328725322" class="phone-link">+63 2 8725-322</a></p>
-                        <a href="https://www.dbb.gov.ph" target="_blank"
-                            class="text-[--secondary-color] font-semibold hover:underline mt-4 block">Visit Website</a>
-                    </div>
 
-                    <div
-                        class="bg-white rounded-3xl shadow-lg p-12 relative overflow-hidden group hover:scale-[1.03] transition-transform">
-                        <div
-                            class="absolute -bottom-12 -left-12 w-40 h-40 bg-[--accent-color]/10 rounded-full group-hover:bg-[--accent-color]/20 transition-all">
+                        <div class="border-l-4 border-gray-300 pl-6">
+                            <h3 class="text-xl font-semibold mb-2">
+                                Small decisions matter
+                            </h3>
+                            <p class="">
+                                Big change rarely arrives all at once. We focus on the small,
+                                repeatable choices that quietly rebuild momentum.
+                            </p>
                         </div>
-                        <h3 class="text-2xl font-bold  mb-3">NCADD Philippines</h3>
-                        <p class="text-[--text-color]/90 mb-4">Education & referral services for individuals & families
-                            struggling with addiction.</p>
-                        <p class="label-minimal">Hotline:</p>
-                        <p class="phone-link mt-2"><a href="tel:+6328899789" class="phone-link">+63 2 8899-789</a></p>
-                        <a href="https://www.ncaddphilippines.org" target="_blank"
-                            class="text-[--secondary-color] font-semibold hover:underline mt-4 block">Visit Website</a>
+
+                        <div class="border-l-4 border-gray-200 pl-6">
+                            <h3 class="text-xl font-semibold mb-2">
+                                Support looks different for everyone
+                            </h3>
+                            <p class="">
+                                Some people need structure. Others need listening. We help you
+                                identify what kind of help actually works for you.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
 
-        {{-- Floating Contact Buttons --}}
-        <div class="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
-            <a href="tel:09602336216"
-                class="bg-[--accent-color] text-white rounded-full w-16 h-16 flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
-                📞
-            </a>
-            <a href="https://wa.me/639602336216" target="_blank"
-                class="bg-green-500 text-white rounded-full w-16 h-16 flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
-                💬
-            </a>
-        </div>
+        <section class="py-24">
+            <div class="max-w-7xl mx-auto px-4">
+
+                <header class="max-w-3xl mx-auto text-center mb-16">
+                    <h2 class="font-[--font-heading] text-3xl md:text-4xl font-bold  mb-4">
+                        Philippine Hotlines & Resources
+                    </h2>
+                    <p class="font-[--font-body] text-lg opacity-80">
+                        Trusted organizations offering support, counseling, and rehabilitation services across the country.
+                    </p>
+                </header>
+
+                <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
+
+                    <!-- Card -->
+                    <div class="bg-white rounded-2xl border border-black/5 p-8 hover:border-[--accent-color]/30 transition">
+                        <h3 class="text-xl font-semibold  mb-3">
+                            Philippine Red Cross
+                        </h3>
+                        <p class="text-[--text-color] opacity-80 mb-6">
+                            24/7 counseling & referral services for mental health and substance abuse.
+                        </p>
+
+                        <div class="flex items-center justify-between">
+                            <a href="tel:143"
+                                class="font-semibold hover: transition">
+                                143 (Nationwide)
+                            </a>
+                            <a href="https://www.redcross.org.ph/" target="_blank"
+                                class="text-sm font-semibold text-[--secondary-color] hover:underline">
+                                Website →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="bg-white rounded-2xl border border-black/5 p-8 hover:border-[--accent-color]/30 transition">
+                        <h3 class="text-xl font-semibold  mb-3">
+                            Dangerous Drugs Board
+                        </h3>
+                        <p class="text-[--text-color] opacity-80 mb-6">
+                            Government programs for prevention, intervention, and rehabilitation.
+                        </p>
+
+                        <div class="flex items-center justify-between">
+                            <a href="tel:+6328185291"
+                                class="font-semibold hover: transition">
+                                +63 2 8185-291
+                            </a>
+                            <a href="https://www.ddb.gov.ph/" target="_blank"
+                                class="text-sm font-semibold text-[--secondary-color] hover:underline">
+                                Website →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="bg-white rounded-2xl border border-black/5 p-8 hover:border-[--accent-color]/30 transition">
+                        <h3 class="text-xl font-semibold  mb-3">
+                            Project Double Barrel
+                        </h3>
+                        <p class="text-[--text-color] opacity-80 mb-6">
+                            Community-based rehabilitation and family support programs.
+                        </p>
+
+                        <div class="flex items-center justify-between">
+                            <a href="tel:+6328725322"
+                                class="font-semibold hover: transition">
+                                +63 2 8725-322
+                            </a>
+                            <a href="https://www.dbb.gov.ph" target="_blank"
+                                class="text-sm font-semibold text-[--secondary-color] hover:underline">
+                                Website →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="bg-white rounded-2xl border border-black/5 p-8 hover:border-[--accent-color]/30 transition">
+                        <h3 class="text-xl font-semibold  mb-3">
+                            NCADD Philippines
+                        </h3>
+                        <p class="text-[--text-color] opacity-80 mb-6">
+                            Education and referral services for individuals and families.
+                        </p>
+
+                        <div class="flex items-center justify-between">
+                            <a href="tel:+6328899789"
+                                class="font-semibold hover: transition">
+                                +63 2 8899-789
+                            </a>
+                            <a href="https://www.ncaddphilippines.org" target="_blank"
+                                class="text-sm font-semibold text-[--secondary-color] hover:underline">
+                                Website →
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
 
         {{-- Animations --}}
         <style>

@@ -36,26 +36,25 @@
             </div>
         </header>
 
-        <section class="py-10 px-4 sm:px-6 lg:px-8">
+       <section class="py-10 px-4 sm:px-6 lg:px-8">
             <!-- Heading -->
             <div class="text-center mb-12">
                 <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
-                    Lorem Ipsum
+                    Meet Our Board of Trustees
                 </h2>
 
-                <p class="mt-6 text-lg md:text-xl leading-relaxed">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, tempore incidunt pariatur reiciendis
-                    aut dignissimos, quibusdam saepe in nostrum iure quos debitis sint est animi vitae corrupti, amet eaque?
-                    Nihil.
+                <p class="mt-6 text-lg md:text-xl leading-relaxed text-gray-700 max-w-3xl mx-auto">
+                    The Sanctuary for Second Chances is guided by a dedicated Board of Trustees committed to ensuring
+                    excellence, accountability, and a vision for holistic recovery and community reintegration.
+                   
                 </p>
             </div>
 
             <figure class="highcharts-figure">
                 <div id="container"></div>
-
             </figure>
-
         </section>
+
 
         <!-- Modal -->
         <div x-data="{ showModal: false, currentName: '', currentImage: '', zoom: false }" x-ref="modalRoot"

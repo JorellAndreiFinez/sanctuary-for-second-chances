@@ -31,7 +31,7 @@
                         </div>
                         <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
                             <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
-                                <h3 class=" text-xl font-semibold sm:text-center sm:text-2xl md:text-center uppercase">
+                                <h3 class=" text-xl font-semibold text-center sm:text-2xl  uppercase">
                                     History
                                 </h3>
                             </div>
