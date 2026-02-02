@@ -24,11 +24,22 @@
                         <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                             <!-- Left empty or optional content -->
                         </div>
-                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
-                            <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
-                                <h3 class=" text-xl font-semibold sm:text-center sm:text-2xl md:text-center uppercase">
+                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12 mx-auto">
+                            <div class="bg-white rounded shadow-2xl p-7 sm:p-10 text-center">
+                                <img src="{{ asset('assets/images/elements/board.svg') }}" alt=""
+                                    class="w-20 h-20 mx-auto mb-4">
+                                <h3 class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl uppercase">
                                     Board of Trustees
                                 </h3>
+                                <p class="text-sm text-gray-600 sm:text-sm">
+                                    The Board of Trustees provides strategic guidance, oversight, and accountability to
+                                    ensure the organization remains aligned with its mission and values. Composed of
+                                    individuals with diverse backgrounds and lived experience, the board supports ethical
+                                    leadership, long-term sustainability, and responsible stewardship in all areas of
+                                    service.
+                                </p>
+
+
                             </div>
                         </div>
                     </div>
@@ -36,7 +47,7 @@
             </div>
         </header>
 
-       <section class="py-10 px-4 sm:px-6 lg:px-8">
+        <section class="py-10 px-4 sm:px-6 lg:px-8">
             <!-- Heading -->
             <div class="text-center mb-12">
                 <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
@@ -46,7 +57,7 @@
                 <p class="mt-6 text-lg md:text-xl leading-relaxed text-gray-700 max-w-3xl mx-auto">
                     The Sanctuary for Second Chances is guided by a dedicated Board of Trustees committed to ensuring
                     excellence, accountability, and a vision for holistic recovery and community reintegration.
-                   
+
                 </p>
             </div>
 

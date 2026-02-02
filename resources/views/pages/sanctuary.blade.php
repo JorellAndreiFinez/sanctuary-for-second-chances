@@ -23,18 +23,19 @@
                         <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
 
                         </div>
-                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
-                            <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
+                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12 mx-auto">
+                            <div class="bg-white rounded shadow-2xl p-7 sm:p-10 text-center">
+                                <img src="{{ asset('assets/images/logo-transparent.png') }}" alt="" class="w-20 h-20 mx-auto mb-4">
                                 <h3 class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl uppercase">
                                     The Sanctuary for Second Chances
                                 </h3>
-                                <p class="text-xs text-gray-600 sm:text-sm">
+                                <p class="text-sm text-gray-600 sm:text-sm">
                                     The Sanctuary for Second Chances, Inc. is a non-profit, non-government organization
                                     (CSO/NGO) dedicated to addiction recovery, stigma-reduction, and sustainable
                                     reintegration. We believe recovery should feel like healing—not punishment. That is why
                                     we operate as a non-TC, non-lock-up, open doors addiction recovery center, where
                                     individuals are treated with dignity, compassion, and trust.
-
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -81,8 +82,8 @@
                     </div>
 
                     <!-- Google Map Embed -->
-                    <div class="rounded-xl overflow-hidden">
-                        <img src="{{ asset('assets/images/footer-cover.png')}}" alt="">
+                    <div class="overflow-hidden ">
+                        <img src="{{ asset('assets/images/logo-frame.svg') }}" alt="" class="w-130 h-130">
                     </div>
                 </div>
             </div>
@@ -136,7 +137,7 @@
                 { title: 'Multi-Track Recovery Support', description: 'Tailored programs for substance use, gambling, co-dependency, and compulsive behaviors.', icon: '<ion-icon name=\'layers-outline\' class=\'text-3xl text-[--text-color]\'></ion-icon>' }
             ]
         }">
-         <div class="absolute top-4 left-0 w-full h-1"
+            <div class="absolute top-4 left-0 w-full h-1"
                 style="
             background-image: repeating-linear-gradient(
                 to right,
@@ -149,7 +150,7 @@
         ">
             </div>
             <div class="max-w-6xl mx-auto px-6 text-center relative mt-10">
-                
+
                 <h2 class="text-3xl md:text-4xl font-extrabold">What Makes Us Different</h2>
                 <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
                     Our approach blends evidence-informed recovery planning with compassionate peer support, ensuring every

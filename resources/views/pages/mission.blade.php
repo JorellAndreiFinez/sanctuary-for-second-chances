@@ -29,11 +29,19 @@
                         <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                             <!-- Left empty or optional content -->
                         </div>
-                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
-                            <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
-                                <h3 class=" text-xl font-semibold text-center sm:text-2xl  uppercase">
+                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12 mx-auto">
+                            <div class="bg-white rounded shadow-2xl p-7 sm:p-10 text-center">
+                                <img src="{{ asset('assets/images/elements/mission-vision.svg') }}" alt="" class="w-20 h-20 mx-auto mb-4">
+                                <h3 class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl uppercase">
                                     Our Mission, Vision, & Core Values
                                 </h3>
+                                <p class="text-sm text-gray-600 sm:text-sm">
+                                    The Sanctuary for Second Chances, Inc. is a non-profit, non-government organization
+                                    (CSO/NGO) dedicated to addiction recovery, stigma-reduction, and sustainable
+                                    reintegration. We believe recovery should feel like healing—not punishment. That is why
+                                    we operate as a non-TC, non-lock-up, open doors addiction recovery center, where
+                                    individuals are treated with dignity, compassion, and trust.
+
                             </div>
                         </div>
                     </div>
@@ -53,8 +61,7 @@
                     </h2>
 
                     <p class="text-[--hover-color] text-lg md:text-xl max-w-3xl mx-auto font-[--font-body]">
-                        The Sanctuary for Second Chances, Inc. exists to walk with individuals seeking freedom from chemical
-                        dependency, co-dependency, and destructive behavioral patterns rooted in dysfunction and compulsion.
+                        Healing is a process of unlearning harm and rebuilding self-worth. Support is offered through compassion, structure, and accountability, allowing individuals to move beyond addiction and destructive patterns. The goal is not just sobriety, but stability, purpose, and reintegration into everyday life.
                     </p>
                 </div>
 

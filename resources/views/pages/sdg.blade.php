@@ -1,5 +1,5 @@
 @extends('layouts.about')
-@section('title', 'About -  Sustainable Development Goals')
+@section('title', 'About - Sustainable Development Goals')
 
 @section('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/pages/home.css') }}">
@@ -29,11 +29,20 @@
                         <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                             <!-- Left empty or optional content -->
                         </div>
-                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
-                            <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
-                                <h3 class=" text-xl font-semibold text-center sm:text-2xl  uppercase">
+                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12 mx-auto">
+                            <div class="bg-white rounded shadow-2xl p-7 sm:p-10 text-center">
+                                <img src="{{ asset('assets/images/elements/mission-vision.svg') }}" alt=""
+                                    class="w-20 h-20 mx-auto mb-4">
+                                <h3 class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl uppercase">
                                     Sustainable Development Goals
                                 </h3>
+                                <p class="text-sm text-gray-600 sm:text-sm">
+                                    The work is aligned with the United Nations Sustainable Development Goals by addressing
+                                    health, well-being, social inclusion, and reduced inequalities. Through recovery-focused
+                                    support, education, and reintegration efforts, individuals are empowered to rebuild
+                                    their lives while contributing positively to their families and communities.
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -47,7 +56,8 @@
                 <!-- Content -->
                 <div class="items-center">
                     <div class="space-y-8">
-                        <h3 class="text-3xl sm:text-4xl font-semibold text-primary-600">Alignment with United Nations Sustainable Goals</h3>
+                        <h3 class="text-3xl sm:text-4xl font-semibold text-primary-600">Alignment with United Nations
+                            Sustainable Goals</h3>
                         <p class=" leading-relaxed text-lg">
                             The Sanctuary for Second Chances, Inc. is a non-profit, non-government organization dedicated to
                             advancing the United Nations Sustainable Development Goals—particularly Goal 3: Good Health and
@@ -70,7 +80,7 @@
             </div>
         </section>
 
-        <section class="bg-gray-50 py-16">
+        <section class=" py-16">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <!-- Header -->
                 <div class="text-center mb-12">
@@ -98,8 +108,7 @@
                     <!-- Card 2: Partnerships & Community -->
                     <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
                         <div class="flex items-center mb-4">
-                            <img src="{{ asset('assets/images/sdg17.png') }}" alt="SDG 17 Icon"
-                                class="h-12 w-12 mr-4">
+                            <img src="{{ asset('assets/images/sdg17.png') }}" alt="SDG 17 Icon" class="h-12 w-12 mr-4">
                             <h3 class="text-xl font-semibold text-primary-600">SDG #17: Partnerships for the Goals</h3>
                         </div>
                         <p class=" leading-relaxed">

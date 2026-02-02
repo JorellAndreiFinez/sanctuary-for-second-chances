@@ -29,11 +29,16 @@
                         <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                             <!-- Left empty or optional content -->
                         </div>
-                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
-                            <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
-                                <h3 class=" text-xl font-semibold text-center sm:text-2xl  uppercase">
+                        <div class="w-full max-w-xl xl:px-8 xl:w-5/12 mx-auto">
+                             <div class="bg-white rounded shadow-2xl p-7 sm:p-10 text-center">
+                                <img src="{{ asset('assets/images/logo-transparent.png') }}" alt="" class="w-20 h-20 mx-auto mb-4">
+                                <h3 class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl uppercase">
                                     History
                                 </h3>
+                                <p class="text-sm text-gray-600 sm:text-sm">
+                                    What began as a response to unmet needs in addiction recovery grew into a space shaped by experience, compassion, and hard-earned lessons. The approach was formed through listening—recognizing that healing requires trust, dignity, and openness rather than confinement or punishment.
+                                </p>
+
                             </div>
                         </div>
                     </div>
