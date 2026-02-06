@@ -150,6 +150,12 @@
                     class="w-70 h-70 object-cover">
             </div>
 
+            <div class="taggbox" style="width:100%;height:100%;overflow:auto;" data-widget-id="316178" data-website="1">
+            </div>
+            <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script>
+
+            
+            {{-- 
             <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <template x-for="(update, index) in updates" :key="index">
                     <div
@@ -252,7 +258,7 @@
                     <p class="hind text-[var(--hover-color)] mt-2 whitespace-pre-line" x-text="currentUpdate.fullDesc">
                     </p>
                 </div>
-            </div>
+            </div> --}}
         </section>
 
     </main>
