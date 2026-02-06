@@ -25,7 +25,8 @@
                         </div>
                         <div class="w-full max-w-xl xl:px-8 xl:w-5/12 mx-auto">
                             <div class="bg-white rounded shadow-2xl p-7 sm:p-10 text-center">
-                                <img src="{{ asset('assets/images/logo-transparent.png') }}" alt="" class="w-20 h-20 mx-auto mb-4">
+                                <img src="{{ asset('assets/images/logo-transparent.png') }}" alt=""
+                                    class="w-20 h-20 mx-auto mb-4">
                                 <h3 class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl uppercase">
                                     The Sanctuary for Second Chances
                                 </h3>
@@ -201,87 +202,76 @@
             </div>
         </section>
 
-
-
-        <section class="mt-16 py-20 bg-gray-50 relative">
-
-            <div class="max-w-5xl mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-extrabold ">
-                    Program Features
-                </h2>
-                <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
-                    Experience a recovery journey designed to empower, connect, and sustain growth for every participant.
-                </p>
-
-                <!-- Timeline style -->
-                <div class="mt-16 relative">
-                    <!-- Vertical line for timeline on large screens -->
-                    <div
-                        class="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-primary">
+        <section class="mt-16 py-20 bg-gray-50 rounded shadow-sm">
+            <div class="py-8">
+                <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
+                    <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+                        <h1 class="text-5xl md:text-6xl mb-2">Program Features</h1>
+                        <p class="text-sm md:text-base mb-4">
+                            Experience a recovery journey designed to empower, connect, and sustain growth for every
+                            participant.
+                        </p>
                     </div>
+                    <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
+                        <div class="container mx-auto w-full h-full">
+                            <div class="relative wrap overflow-hidden p-10 h-full">
+                                <div class="border-2-2 border-yellow-555 absolute h-full border"
+                                    style="right: 50%; border: 2px solid var(--text-color); border-radius: 1%;"></div>
+                                <div class="border-2-2 border-yellow-555 absolute h-full border"
+                                    style="left: 50%; border: 2px solid var(--accent-color); border-radius: 1%;"></div>
+                                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                                    <div class="order-1 w-5/12"></div>
+                                    <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                        <h4 class="mb-3 font-bold text-lg md:text-2xl">Open-Doors Recovery</h4>
+                                        <p class="text-sm md:text-base leading-snug  text-opacity-100">
+                                            A welcoming, non-restrictive environment that builds trust, dignity, and
+                                            belonging.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                                    <div class="order-1 w-5/12"></div>
+                                    <div class="order-1  w-5/12 px-1 py-4 text-left">
 
-                    <!-- Features -->
-                    <div class="space-y-16">
-                        <!-- Feature 1 -->
-                        <div class="md:flex md:items-center md:justify-between">
-                            <div class="md:w-5/12 text-right md:pr-12">
-                                <h3 class="text-2xl font-semibold ">Open-Doors Recovery</h3>
-                                <p class="mt-2 text-gray-600">
-                                    A welcoming, non-restrictive environment that builds trust, dignity, and belonging.
-                                </p>
-                            </div>
-                            <div
-                                class="mx-auto w-6 h-6 bg-primary rounded-full border-4 border-white md:relative md:left-1/2 transform -translate-x-1/2">
-                            </div>
-                        </div>
+                                        <h4 class="mb-3 font-bold text-lg md:text-2xl">Regular RNR</h4>
+                                        <p class="text-sm md:text-base leading-snug  text-opacity-100">
+                                            Balanced time for relaxation, fun outdoor activities, and community bonding.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                                    <div class="order-1 w-5/12"></div>
+                                    <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                        <h4 class="mb-3 font-bold text-lg md:text-2xl">12-Step Integration</h4>
+                                        <p class="text-sm md:text-base leading-snug  text-opacity-100">
+                                            Participation in 12-step aligned fellowships and support group meetings for
+                                            shared wisdom and guidance.
+                                        </p>
+                                    </div>
+                                </div>
 
-                        <!-- Feature 2 -->
-                        <div class="md:flex md:items-center md:justify-between md:flex-row-reverse">
-                            <div class="md:w-5/12 text-left md:pl-12">
-                                <h3 class="text-2xl font-semibold ">Regular RNR</h3>
-                                <p class="mt-2 text-gray-600">
-                                    Balanced time for relaxation, fun outdoor activities, and community bonding.
-                                </p>
-                            </div>
-                            <div
-                                class="mx-auto w-6 h-6 bg-primary rounded-full border-4 border-white md:relative md:right-1/2 transform translate-x-1/2">
-                            </div>
-                        </div>
+                                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                                    <div class="order-1 w-5/12"></div>
 
-                        <!-- Feature 3 -->
-                        <div class="md:flex md:items-center md:justify-between">
-                            <div class="md:w-5/12 text-right md:pr-12">
-                                <h3 class="text-2xl font-semibold ">12-Step Integration</h3>
-                                <p class="mt-2 text-gray-600">
-                                    Participation in 12-step aligned fellowships and support group meetings for shared
-                                    wisdom and guidance.
-                                </p>
+                                    <div class="order-1  w-5/12 px-1 py-4">
+                                        <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">Aftercare & Follow-Up
+                                        </h4>
+                                        <p class="text-sm md:text-base leading-snug  text-opacity-100">
+                                            Structured monitoring, relapse prevention, and reintegration planning for alumni
+                                            and community-based participants.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <div
-                                class="mx-auto w-6 h-6 bg-primary rounded-full border-4 border-white md:relative md:left-1/2 transform -translate-x-1/2">
-                            </div>
-                        </div>
 
-                        <!-- Feature 4 -->
-                        <div class="md:flex md:items-center md:justify-between md:flex-row-reverse">
-                            <div class="md:w-5/12 text-left md:pl-12">
-                                <h3 class="text-2xl font-semibold ">Aftercare & Follow-Up</h3>
-                                <p class="mt-2 text-gray-600">
-                                    Structured monitoring, relapse prevention, and reintegration planning for alumni and
-                                    community-based participants.
-                                </p>
-                            </div>
-                            <div
-                                class="mx-auto w-6 h-6 bg-primary rounded-full border-4 border-white md:relative md:right-1/2 transform translate-x-1/2">
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="mt-16 py-20 bg-primary">
-            <div class="max-w-4xl mx-auto px-6 text-center">
+        <section class="mt-16 py-20 bg-primary relative overflow-hidden shadow-sm/40">
+            <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
                 <h2 class="text-3xl md:text-4xl font-extrabold">
                     Learn More About Our Purpose
                 </h2>
@@ -301,7 +291,9 @@
                     </a>
                 </div>
             </div>
+
         </section>
+
     </main>
 
 @endsection
